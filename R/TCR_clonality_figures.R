@@ -1,8 +1,8 @@
 library(tidyverse, quietly = TRUE)
 library(argparser, quietly = TRUE)
 library(here, quietly = TRUE)
-source(here::here('src' , 'R', 'utils', 'IO.R'))
-source(here::here('src', 'R', 'utils', 'TCRClonaltiyFxns.R'))
+source(here::here('R', 'utils', 'IO.R'))
+source(here::here('R', 'utils', 'TCRClonaltiyFxns.R'))
 options(future.globals.maxSize= 100000000000)  # Override memory limit
 
 # Parse commandline arguments
