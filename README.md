@@ -37,7 +37,7 @@ Packages:
 5. RColorBrewer 1.1-2
 6. here 0.1
 7. argparser 0.6
-8. tidyverse_1.3.0   
+8. tidyverse 1.3.0   
 
 To run TCR_clonality_figures.R in commandline:
 
